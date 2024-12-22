@@ -3,7 +3,7 @@ on:
   pull-requests:
     types: [opened]
 permissions:
-  pull-requests: write
+  pull_requests: write
 jobs:
   build:
     name: Post Welcome comment 
